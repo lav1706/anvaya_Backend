@@ -15,7 +15,7 @@ app.use(cors());
 app.use(express.json());
 app.use(
   cors({
-    origin: "https://spiffy-tanuki-16dc5d.netlify.app/",
+    origin: "https://spiffy-tanuki-16dc5d.netlify.app",
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
     credentials: true,
   })
